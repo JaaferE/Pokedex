@@ -1,4 +1,4 @@
-Simple Pokedex app based the Pokemon API, created using VVVV Gamma.
+Pokedex app based the Pokemon API, created using VVVV Gamma.
 
 Notes:
 * Needs internet.
