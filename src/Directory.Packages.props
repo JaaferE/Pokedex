@@ -1,0 +1,21 @@
+﻿<Project>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.CodeAnalysis.Common" Version="4.4.0" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.4.0" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.Workspaces.Common" Version="4.4.0" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.Workspaces.MSBuild" Version="4.4.0" />
+    <PackageVersion Include="SharpDX.MediaFoundation" Version="4.2.0" />
+    <PackageVersion Include="SkiaSharp" Version="2.88.1" />
+    <PackageVersion Include="SkiaSharp.Svg" Version="1.60.0" />
+    <PackageVersion Include="Stride.Core.Mathematics" Version="4.1.0.1838" />
+    <PackageVersion Include="System.Interactive" Version="6.0.1" />
+    <PackageVersion Include="System.Management" Version="6.0.0" />
+    <PackageVersion Include="System.Reactive" Version="5.0.0" />
+    <PackageVersion Include="VL.CoreLib" Version="2023.5.2" />
+    <PackageVersion Include="VL.ImGui" Version="2023.5.2" />
+    <PackageVersion Include="VL.ImGui.Skia" Version="2023.5.2" />
+    <PackageVersion Include="VL.SimpleHTTP" Version="1.2.1" />
+    <PackageVersion Include="VL.Skia" Version="2023.5.2" />
+    <PackageVersion Include="VL.WinFormsUtils" Version="1.0.11" />
+  </ItemGroup>
+</Project>

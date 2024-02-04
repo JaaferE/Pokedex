@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Release\\Pokedex\\src\\Pokedex\\Pokedex.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Release\\Pokedex\\src\\Pokedex\\Pokedex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Release\\Pokedex\\src\\Pokedex\\Pokedex.csproj",
+        "projectName": "Pokedex",
+        "projectPath": "D:\\Projects\\Release\\Pokedex\\src\\Pokedex\\Pokedex.csproj",
+        "packagesPath": "C:\\Users\\Jaerasgon\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Release\\Pokedex\\src\\Pokedex\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "configFilePaths": [
+          "D:\\Projects\\Release\\Pokedex\\src\\NuGet.Config",
+          "C:\\Users\\Jaerasgon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "SharpDX.MediaFoundation": {
+              "include": "None",
+              "target": "Package",
+              "version": "[4.2.0, )",
+              "generatePathProperty": true,
+              "versionCentrallyManaged": true
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.1, )",
+              "versionCentrallyManaged": true
+            },
+            "SkiaSharp.Svg": {
+              "target": "Package",
+              "version": "[1.60.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Stride.Core.Mathematics": {
+              "target": "Package",
+              "version": "[4.1.0.1838, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Interactive": {
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "VL.CoreLib": {
+              "target": "Package",
+              "version": "[2023.5.2, )",
+              "versionCentrallyManaged": true
+            },
+            "VL.ImGui": {
+              "target": "Package",
+              "version": "[2023.5.2, )",
+              "versionCentrallyManaged": true
+            },
+            "VL.ImGui.Skia": {
+              "target": "Package",
+              "version": "[2023.5.2, )",
+              "versionCentrallyManaged": true
+            },
+            "VL.SimpleHTTP": {
+              "target": "Package",
+              "version": "[1.2.1, )",
+              "versionCentrallyManaged": true
+            },
+            "VL.Skia": {
+              "target": "Package",
+              "version": "[2023.5.2, )",
+              "versionCentrallyManaged": true
+            },
+            "VL.WinFormsUtils": {
+              "target": "Package",
+              "version": "[1.0.11, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Microsoft.CodeAnalysis.Common": "[4.4.0, )",
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": "[4.4.0, )",
+            "Microsoft.CodeAnalysis.Workspaces.Common": "[4.4.0, )",
+            "Microsoft.CodeAnalysis.Workspaces.MSBuild": "[4.4.0, )",
+            "SharpDX.MediaFoundation": "[4.2.0, )",
+            "SkiaSharp": "[2.88.1, )",
+            "SkiaSharp.Svg": "[1.60.0, )",
+            "Stride.Core.Mathematics": "[4.1.0.1838, )",
+            "System.Interactive": "[6.0.1, )",
+            "System.Management": "[6.0.0, )",
+            "System.Reactive": "[5.0.0, )",
+            "VL.CoreLib": "[2023.5.2, )",
+            "VL.ImGui": "[2023.5.2, )",
+            "VL.ImGui.Skia": "[2023.5.2, )",
+            "VL.SimpleHTTP": "[1.2.1, )",
+            "VL.Skia": "[2023.5.2, )",
+            "VL.WinFormsUtils": "[1.0.11, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

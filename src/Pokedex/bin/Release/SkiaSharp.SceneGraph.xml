@@ -1,0 +1,42 @@
+<doc>
+    <assembly>
+        <name>SkiaSharp.SceneGraph</name>
+    </assembly>
+    <members>
+        <member name="T:SkiaSharp.SceneGraph.InvalidationController">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:SkiaSharp.SceneGraph.InvalidationController">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.SceneGraph.InvalidationController.Begin">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:SkiaSharp.SceneGraph.InvalidationController.Bounds">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.SceneGraph.InvalidationController.DisposeNative">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.SceneGraph.InvalidationController.End">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.SceneGraph.InvalidationController.Invalidate(SkiaSharp.SKRect,SkiaSharp.SKMatrix)">
+            <param name="rect">To be added.</param>
+            <param name="matrix">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.SceneGraph.InvalidationController.Reset">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+    </members>
+</doc>

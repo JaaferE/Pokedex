@@ -1,0 +1,157 @@
+<doc>
+    <assembly>
+        <name>SkiaSharp.Skottie</name>
+    </assembly>
+    <members>
+        <member name="T:SkiaSharp.Skottie.Animation">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.Create(SkiaSharp.SKData)">
+            <param name="data">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.Create(SkiaSharp.SKStream)">
+            <param name="stream">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.Create(System.IO.Stream)">
+            <param name="stream">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.Create(System.String)">
+            <param name="path">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.DisposeNative">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:SkiaSharp.Skottie.Animation.Duration">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:SkiaSharp.Skottie.Animation.Fps">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:SkiaSharp.Skottie.Animation.InPoint">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:SkiaSharp.Skottie.Animation.OutPoint">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.Parse(System.String)">
+            <param name="json">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.Render(SkiaSharp.SKCanvas,SkiaSharp.SKRect)">
+            <param name="canvas">To be added.</param>
+            <param name="dst">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.Render(SkiaSharp.SKCanvas,SkiaSharp.SKRect,SkiaSharp.Skottie.AnimationRenderFlags)">
+            <param name="canvas">To be added.</param>
+            <param name="dst">To be added.</param>
+            <param name="flags">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.Seek(System.Double,SkiaSharp.SceneGraph.InvalidationController)">
+            <param name="percent">To be added.</param>
+            <param name="ic">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.SeekFrame(System.Double,SkiaSharp.SceneGraph.InvalidationController)">
+            <param name="frame">To be added.</param>
+            <param name="ic">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.SeekFrameTime(System.Double,SkiaSharp.SceneGraph.InvalidationController)">
+            <param name="seconds">To be added.</param>
+            <param name="ic">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.SeekFrameTime(System.TimeSpan,SkiaSharp.SceneGraph.InvalidationController)">
+            <param name="time">To be added.</param>
+            <param name="ic">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:SkiaSharp.Skottie.Animation.Size">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.TryCreate(SkiaSharp.SKData,SkiaSharp.Skottie.Animation@)">
+            <param name="data">To be added.</param>
+            <param name="animation">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.TryCreate(SkiaSharp.SKStream,SkiaSharp.Skottie.Animation@)">
+            <param name="stream">To be added.</param>
+            <param name="animation">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.TryCreate(System.IO.Stream,SkiaSharp.Skottie.Animation@)">
+            <param name="stream">To be added.</param>
+            <param name="animation">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.TryCreate(System.String,SkiaSharp.Skottie.Animation@)">
+            <param name="path">To be added.</param>
+            <param name="animation">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:SkiaSharp.Skottie.Animation.TryParse(System.String,SkiaSharp.Skottie.Animation@)">
+            <param name="json">To be added.</param>
+            <param name="animation">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:SkiaSharp.Skottie.Animation.Version">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:SkiaSharp.Skottie.AnimationRenderFlags">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:SkiaSharp.Skottie.AnimationRenderFlags.DisableTopLevelClipping">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:SkiaSharp.Skottie.AnimationRenderFlags.SkipTopLevelIsolation">
+            <summary>To be added.</summary>
+        </member>
+    </members>
+</doc>

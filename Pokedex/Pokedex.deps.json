@@ -23,11 +23,13 @@
           "VL.Skia": "2023.5.2",
           "VL.WinFormsUtils": "1.0.11",
           "SharpDX.MediaFoundation.Reference": "4.2.0.0",
+          "SimMetricsCore": "2.1.0.0",
           "VL.App.WindowsForms": "2023.5.0.0",
           "VL.AppServices": "2023.5.0.0",
           "VL.CoreLib.vl": "0.0.0.0",
           "VL.CoreLib.Windows": "2023.5.0.0",
           "VL.CoreLib.Windows.vl": "0.0.0.0",
+          "VL.FuzzySearch.vl": "0.0.0.0",
           "VL.ImGui.Skia.vl": "0.0.0.0",
           "VL.ImGui.vl": "0.0.0.0",
           "VL.SimpleHTTP.vl": "0.0.0.0",
@@ -1497,6 +1499,14 @@
           }
         }
       },
+      "SimMetricsCore/2.1.0.0": {
+        "runtime": {
+          "SimMetricsCore.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
       "VL.App.WindowsForms/2023.5.0.0": {
         "runtime": {
           "VL.App.WindowsForms.dll": {
@@ -1532,6 +1542,14 @@
       "VL.CoreLib.Windows.vl/0.0.0.0": {
         "runtime": {
           "VL.CoreLib.Windows.vl.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "VL.FuzzySearch.vl/0.0.0.0": {
+        "runtime": {
+          "VL.FuzzySearch.vl.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -2779,6 +2797,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "SimMetricsCore/2.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "VL.App.WindowsForms/2023.5.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -2800,6 +2823,11 @@
       "sha512": ""
     },
     "VL.CoreLib.Windows.vl/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VL.FuzzySearch.vl/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VL.Skia</name>
+    </assembly>
+    <members>
+        <member name="M:VL.Skia.Imaging.TryFromImage(VL.Lib.Basics.Imaging.IImage,System.Boolean,SkiaSharp.SKImage@)">
+            <summary>
+            Tries to convert an IImage to an SKImage
+            </summary>
+            <param name="image"></param>
+            <param name="discardHigherBits">Skia cannot handle 16bit images. Therefore in case the input is of type R16 this decides whether to discard the higher or lower bits in the conversion to 8bit</param>
+            <param name="skImage">The converted image or null if the conversion was not possible.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VL.Skia.Imaging.FromImage(VL.Lib.Basics.Imaging.IImage,System.Boolean)">
+            <summary>
+            Convertes an IImage to an SKImage
+            </summary>
+            <param name="image"></param>
+            <param name="discardHigherBits">Skia cannot handle 16bit images. Therefore in case the input is of type R16 this decides whether to discard the higher or lower bits in the conversion to 8bit</param>
+            <returns></returns>
+        </member>
+        <member name="T:VL.Skia.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:VL.Skia.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:VL.Skia.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:VL.Skia.Properties.Resources.QuadIcon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:VL.Skia.SkiaRenderer.RenderTime">
+            <summary>
+            The time to evaluate and draw the layer input in μs.
+            </summary>
+        </member>
+        <member name="F:VL.Skia.SkiaRenderer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:VL.Skia.SkiaRenderer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+    </members>
+</doc>
